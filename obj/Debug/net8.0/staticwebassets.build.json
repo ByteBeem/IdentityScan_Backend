@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fAEKRguCpG/j8LnJhKU9IhpC9+2tE/7VBVVOgwUJXfY=",
+  "Source": "IdentityScan_Server",
+  "BasePath": "_content/IdentityScan_Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

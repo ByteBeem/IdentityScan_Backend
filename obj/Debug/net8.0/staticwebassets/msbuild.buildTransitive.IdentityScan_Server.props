@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\IdentityScan_Server.props" />
+</Project>
