@@ -10,10 +10,12 @@ namespace IdentityScan_Server.Controllers
     public class IdentityController : ControllerBase
     {
         private readonly IdentityRepository _identityRepository;
+        private readonly VersionRepository _versionRepository;
 
-        public IdentityController(IdentityRepository identityRepository)
+        public IdentityController(IdentityRepository identityRepository, VersionRepository versionRepository)
         {
             _identityRepository = identityRepository;
+            _versionRepository = versionRepository;
         }
 
         [HttpPost("add")]
@@ -32,6 +34,24 @@ namespace IdentityScan_Server.Controllers
                 return NotFound();
             }
             return Ok(identity);
+        }
+
+        [HttpGet("appVersion")]
+        public async Task<IActionResult> GetAppVersion(string currentVersion)
+        
+        {
+            var version = await _versionRepository.GetAppVersion(currentVersion);
+            if(version == null){
+                return NotFound();
+            }
+            return Ok(version);
+        }
+
+        [HttpPost("addAppVersion")]
+        public async Task<IActionResult> AddVersion([FromBody] AppVersions version)
+        {
+            await _versionRepository.AddVersion(version);
+            return Ok(new { Message = "version added successfully" });
         }
     }
 }

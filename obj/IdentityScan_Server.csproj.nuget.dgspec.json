@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohla\\Desktop\\IdentityScan_Server\\IdentityScan_Server.csproj": {}
+    "C:\\Users\\202113359\\IdentityScan_Backend\\IdentityScan_Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohla\\Desktop\\IdentityScan_Server\\IdentityScan_Server.csproj": {
+    "C:\\Users\\202113359\\IdentityScan_Backend\\IdentityScan_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohla\\Desktop\\IdentityScan_Server\\IdentityScan_Server.csproj",
+        "projectUniqueName": "C:\\Users\\202113359\\IdentityScan_Backend\\IdentityScan_Server.csproj",
         "projectName": "IdentityScan_Server",
-        "projectPath": "C:\\Users\\mohla\\Desktop\\IdentityScan_Server\\IdentityScan_Server.csproj",
-        "packagesPath": "C:\\Users\\mohla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohla\\Desktop\\IdentityScan_Server\\obj\\",
+        "projectPath": "C:\\Users\\202113359\\IdentityScan_Backend\\IdentityScan_Server.csproj",
+        "packagesPath": "C:\\Users\\202113359\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\202113359\\IdentityScan_Backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mohla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\202113359\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -87,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

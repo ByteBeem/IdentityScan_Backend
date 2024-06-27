@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IdentityScan_Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ab42952650ab506404e0d400e98da3fe25abe26")]
 [assembly: System.Reflection.AssemblyProductAttribute("IdentityScan_Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IdentityScan_Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

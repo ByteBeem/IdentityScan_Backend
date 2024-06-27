@@ -36,7 +36,7 @@ builder.Services.AddSingleton(sp =>
 });
 builder.Services.AddSingleton<IdentityRepository>();
 
-
+builder.Services.AddSingleton<VersionRepository>();
 
 builder.Services.AddHealthChecks()
     .AddCheck("IdentityScan API", () => Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.Healthy("API is healthy"));
